@@ -1,0 +1,122 @@
+.header{
+    padding: 0; 
+	margin-top: -20px;	
+}
+/*
+.text-header{
+    margin-left: 20%;
+}
+
+.text-header  h2, .promotions h3, .promotions p{
+    text-transform: uppercase;
+    color: #004b5e;
+}
+
+.title-site {
+    color: #a90035;
+}
+
+.title-img{
+    margin-left: -10%;
+    border: 1px solid;
+}
+
+.introduction{
+    padding-top: 4%;
+}
+*/
+
+.events{
+    padding: 3%;
+	background-color: #f0f9fe;
+}
+
+.text-event h3{
+    font-size: 2.5em;
+    text-transform: uppercase;
+	color: #62355e;
+}
+
+.text-event p{
+    margin-top: 5%;
+    font-size: 1.3em;
+}
+
+.text-event button {
+	margin-top: 5%;
+    color: #002234;
+    background: transparent;
+    border: 2px solid #002234;
+    text-transform: uppercase;
+    padding: 10px 25px;
+}
+
+.img-event{
+   text-align: right;
+}
+
+.img-event img, .promotions > div > img.img-responsive{
+    display: inline;
+}
+
+.promotions{
+    padding: 3%;
+}
+
+.promotions h3{
+    font-size: 2.5em;
+    text-transform: uppercase;
+	margin: 4% 0 6%;
+    text-align: center;
+}
+
+.promotions > div {
+    text-align: center;
+	margin-bottom: 50px;
+}
+
+.promotions .caption {
+    margin-top: -150px;
+	text-align: center;
+}
+
+.mojito{
+    color: #a90036;
+}
+
+.sunrise{
+    color: #004b5e;
+}
+
+.sandia{
+    color: #62355e;
+}
+
+.promotions .caption p {
+    font-size: 3em;
+    text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+@media only screen and (min-width: 1200px){
+	.text-header h2 {
+		font-size: 2.8em;
+	}
+}
+
+@media only screen and (max-width: 991px){
+	.introduction{
+		text-align: center;
+	}
+	.title-img, .header img{
+		display: inline;
+		margin-left: initial;
+	}
+	.text-header {
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	
+}

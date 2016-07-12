@@ -1,0 +1,20 @@
+http://www.genbetadev.com/desarrollo-web/fondos-con-degradados-en-css3
+
+CPANEL:
+http://icypotions.com/cpanel
+Usuario: icypotio
+Contraseña: ge0JyeY74r
+
+
+FTP:
+Nombre de usuario de FTP: icypotio_adv@icypotions.com
+Servidor FTP: ftp.icypotions.com
+Puerto FTPS explícito de FTP &:  21
+pass: icypotions2016.
+
+
+
+DRUPAL:
+http://icypotions.com/user
+user: admin
+pass: icypotions2016.
