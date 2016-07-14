@@ -17,7 +17,7 @@ body{
 	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.90) 40%,rgba(0,0,0,0) 100%);
 	background: linear-gradient(to bottom,  rgba(0,0,0,0.90) 40%,rgba(0,0,0,0) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
-	padding: 20px 15px 35px;
+	padding: 20px 15px;
 }
 
 .navbar-default {
@@ -36,12 +36,8 @@ ul.nav li {
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li.active-trail > a{
-    background: #c83976;
+    background: #62355e;
     color: white;
-}
-
-.logo{
-    text-align: right;
 }
 
 .logo img{
@@ -71,7 +67,7 @@ footer p{
 	text-align: left;
 }
 
-.footer > div:last-child{
+.footer > div:last-child, .logo{
 	text-align: right;
 }
 

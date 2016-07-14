@@ -1,14 +1,13 @@
-
 .main-content .container > div.row{
     margin-bottom: 25px;
 }
 
-.title-section {
+.title-section, .image-section {
     text-align: center;
 	margin-bottom: 25px;
 }
 
-.title-section img {
+.title-section img, .image-section img{
     display: inline;
 }
 
@@ -18,10 +17,6 @@
 
 .information{
 	margin-top: 8%;
-}
-
-.information h2, .data-info > div{
-    margin-bottom: 50px;
 }
 
 .data-info i {
@@ -38,10 +33,6 @@
 	text-align: center;
 }
 
-.information .card h2{
-	margin-bottom: 10px;
-}
-
 .card{
 	border: 10px solid transparent;
 	-moz-border-image:url("../img/imgPal/border.png") 30 round; /* Old firefox */
@@ -51,18 +42,70 @@
     border-bottom: 0;
 	border-right: 0;
 	border-left: 0;
+	color: #62355e;
 }
 
 .card p {
     margin: 0;
+	font-weight: 700;
+    font-size: 1em;
 }
 
-.card > div {
+.card > div, .information .card h2, .multifilter > div, .pk-sabores > div {
     margin-bottom: 25px;
 }
 
-.card i {
-    padding-bottom: 20px;
+
+.information h2, .data-info > div, .card-suc> div{
+    margin-bottom: 50px;
+}
+
+.card > div:nth-child(4){
+	color: #a80838; 
+}
+
+.card i.fa {
+    border: 2px solid;
+    padding: 8px 15px;
+    border-radius: 100px;
+    margin-right: 1em;
+	color: #62355e;
+}
+
+.card-suc i.fa.fa-phone{
+	padding: 10px 13px;
+}
+
+.card-suc i.fa.fa-map-marker{
+	padding: 10px 16px;
+}
+
+.card i.fa.fa-info {
+    padding: 8px 18px;
+}
+
+.card i.fa.fa-gift {
+    padding: 10px 12px;
+	color: #a80838;
+}
+
+.multifilter div.btn{
+	width: 100%;
+    height: 60px;
+}
+
+.multifilter div.btn img{
+    display: inline-block;
+	margin: 0 20px 0 10px;
+	width: 50px;
+    height: 50px;
+	padding-bottom: 5px;
+}
+
+.multifilter div.btn h3{
+    display: inline-block;
+    margin: 0px;
+    text-transform: uppercase;
 }
 
 form#webform-client-form-6 input.form-text, form#webform-client-form-6 textarea {
@@ -78,7 +121,7 @@ form#webform-client-form-6 input.form-text, form#webform-client-form-6 textarea 
     width: 100%;
 }
 
-form#webform-client-form-6 input[type=submit] {
+form#webform-client-form-6 input[type=submit], .card button, .multifilter div.btn{
     color: #a80838;
     background: transparent;
     border: 2px solid #a80838;
@@ -88,19 +131,24 @@ form#webform-client-form-6 input[type=submit] {
 	text-transform: uppercase;
 }
 
-form#webform-client-form-6 input[type=submit]:hover {
+form#webform-client-form-6 input[type=submit]:hover, .card button:hover {
     color: #fff;
     background: #a80838;
 }
 
-@media only screen and (min-width: 1200px){
-	
+
+.multifilter div.btn{
+    color: #62355e;
+    border: 2px solid #62355e;
 }
 
-@media only screen and (max-width: 991px){
-	
+.multifilter div.btn:hover {
+    color: #fff;
+    background: #62355e;
 }
 
-@media only screen and (max-width: 768px){
-	
+@media only screen and (max-width: 500px){
+	.multifilter div.btn h3 {
+		font-size: 1.2em;
+	}
 }

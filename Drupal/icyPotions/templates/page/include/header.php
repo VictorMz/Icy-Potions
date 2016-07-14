@@ -6,7 +6,7 @@
 					</div>
 					<div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
 						<div data-p="225.00" style="display: none;">
-							<img data-u="image" src="/sites/default/files/scroll/img/red.jpg" />
+							<!--img data-u="image" src="/sites/default/files/scroll/img/red.jpg" /-->
 							<div style="position: absolute; top: 94px; left: 635px; width: 480px; height: 120px; font-size: 50px; color: #ffffff; line-height: 60px;">TOUCH SWIPE SLIDER</div>
 							<div style="position: absolute; top: 283px; left: 708px; width: 480px; height: 120px; font-size: 30px; color: #ffffff; line-height: 38px;">Build your slider with anything, includes image, content, text, html, photo, picture</div>
 							<div data-u="caption" data-t="0" style="position: absolute; top: 85px; left: 155px; width: 450px; height: 350px;">
