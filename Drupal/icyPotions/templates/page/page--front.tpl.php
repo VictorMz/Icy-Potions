@@ -128,6 +128,7 @@
 				<?php include 'include/footer.php' ?>
 			</footer>
 			
-			<?php include 'include/modal.html' ?>
-				
+			<?php
+			/** <?php include 'include/modal.html' ?>*/
+			?>	
 	</div>
