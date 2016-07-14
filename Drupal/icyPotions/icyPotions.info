@@ -1,0 +1,28 @@
+; iClinica Theme
+name = Icy Potions
+description = new version of site: Icy Potions
+core = 7.x
+screenshot= assets/img/site.jpg
+
+; Style Sheets
+stylesheets[all][] = assets/css/bootstrap.min.css
+stylesheets[all][] = assets/css/ipotions.css
+
+; Js Scripts
+scripts[] = assets/js/jquery.min.js
+scripts[] = assets/js/modernizr.js
+scripts[] = assets/js/html5shiv.min.js
+scripts[] = assets/js/respond.min.js
+scripts[] = assets/js/bootstrap.min.js
+scripts[] = assets/js/ipotions.js
+
+
+; Regions
+regions[page_top] = Page top
+regions[main_menu] = Main Menu
+regions[slide_home] = Slider Header
+regions[content] = Content
+regions[view-result] = View Result
+regions[login] = Login
+regions[page_bottom] = Page bottom
+regions[footer] = Footer

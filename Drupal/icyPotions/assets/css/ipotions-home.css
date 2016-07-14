@@ -1,0 +1,174 @@
+/* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 22 css */
+        /*
+        .jssora22l                  (normal)
+        .jssora22r                  (normal)
+        .jssora22l:hover            (normal mouseover)
+        .jssora22r:hover            (normal mouseover)
+        .jssora22l.jssora22ldn      (mousedown)
+        .jssora22r.jssora22rdn      (mousedown)
+        */
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url('img/a22.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+
+
+.header{
+    padding: 0; 
+	margin-top: -20px;	
+}
+/*
+.text-header{
+    margin-left: 20%;
+}
+
+.text-header  h2, .promotions h3, .promotions p{
+    text-transform: uppercase;
+    color: #004b5e;
+}
+
+.title-site {
+    color: #a90035;
+}
+
+.title-img{
+    margin-left: -10%;
+    border: 1px solid;
+}
+
+.introduction{
+    padding-top: 4%;
+}
+*/
+
+.events{
+    padding: 3%;
+	background-color: #f0f9fe;
+}
+
+.text-event h3{
+    font-size: 2.5em;
+    text-transform: uppercase;
+	color: #62355e;
+}
+
+.text-event p{
+    margin-top: 5%;
+    font-size: 1.3em;
+}
+
+.text-event button {
+	margin-top: 5%;
+    color: #002234;
+    background: transparent;
+    border: 2px solid #002234;
+    text-transform: uppercase;
+    padding: 10px 25px;
+}
+
+.img-event{
+   text-align: right;
+}
+
+.img-event img, .promotions > div > img.img-responsive{
+    display: inline;
+}
+
+.promotions{
+    padding: 3%;
+}
+
+.promotions h3{
+    font-size: 2.5em;
+    text-transform: uppercase;
+	margin: 4% 0 6%;
+    text-align: center;
+}
+
+.promotions > div {
+    text-align: center;
+	margin-bottom: 50px;
+}
+
+.promotions .caption {
+    margin-top: -150px;
+	text-align: center;
+}
+
+.mojito{
+    color: #a90036;
+}
+
+.sunrise{
+    color: #004b5e;
+}
+
+.sandia{
+    color: #62355e;
+}
+
+.promotions .caption p {
+    font-size: 3em;
+    text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+@media only screen and (min-width: 1200px){
+	.text-header h2 {
+		font-size: 2.8em;
+	}
+}
+
+@media only screen and (max-width: 991px){
+	.introduction{
+		text-align: center;
+	}
+	.title-img, .header img{
+		display: inline;
+		margin-left: initial;
+	}
+	.text-header {
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	
+}
