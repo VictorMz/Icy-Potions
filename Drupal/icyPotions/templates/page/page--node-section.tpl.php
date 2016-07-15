@@ -100,8 +100,7 @@
 				
 				?>
 						
-			<footer class="container-fluid"> 
-				<?php include 'include/footer.php' ?>
-			</footer>
+			<?php include 'include/footer.php' ?>
+			
 			
 	</div>

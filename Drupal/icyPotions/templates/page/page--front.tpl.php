@@ -83,52 +83,36 @@
 			<div class="container-fluid header">
 				<?php include 'include/header.php' ?>
 			</div>
-			<?php print $messages; ?>
+			
+			<?php /** print $messages; **/ ?>
+			
+			<?php   if ($is_admin){ 
+						if ($tabs): ?>
+							<div class="tabs"><?php print render($tabs); ?></div>
+					<?php endif; 
+					} ?>
+					
+			<?php if(count($node->field_message_event) > 0):?>
 			<div class="container-fluid events">
                 <div class="container">			
-					<div class="col-sm-8 text-event">
-						<h3>Llevanos a <strong>tu evento</strong></h3>
-						<p>¡Es hora de crear una experiencia diferente en tu evento con nuestras paletas de hielo con alcohol, perfectas para bodas,cumpleaños,eventos corporativos y mas!</p>
-						<div class="col-xs-12 text-center">
-							<a href="/llevanos-a-tu-evento"><button class="btn btn-default">Contactanos</button></a>
-						</div>
-					</div>
-					<div class="col-sm-4 img-event">
-						<img src="<?php  print $imgs_url ?>/assets/img/tu-evento.png" class="img-responsive hidden-xs">
-					</div>	
+					<?php print render($node->field_message_event['und'][0]['value']);?>
 				</div>				
 			</div>
+			<?php endif; ?>
 			
+			<?php if(count($node->field_promotions_home ) > 0):?>
 			<div class="container promotions">
                 <h3>Los nuevos <strong>sabores</strong></h3>			
-				<div class="col-sm-4 mojito">
-					<img src="http://placehold.it/300x300" class="img-responsive">
-					<div class="caption">
-						<p>Mango</p>
-						<p><strong>Mojito</strong></p>
-					</div>
-				</div>
-				<div class="col-sm-4 sunrise">
-					<img src="http://placehold.it/300x300" class="img-responsive">
-					<div class="caption">
-						<p>Mango</p>
-						<p><strong>Mojito</strong></p>
-					</div>
-				</div>
-				<div class="col-sm-4 sandia">
-					<img src="http://placehold.it/300x300" class="img-responsive">
-					<div class="caption">
-						<p>Mango</p>
-						<p><strong>Mojito</strong></p>
-					</div>
-				</div>				
+				<?php foreach ($node->field_promotions_home ['und'] as $i => $value): ?>
+					<?php print render($node->field_promotions_home ['und'][$i]['safe_value']);	?>
+				<?php endforeach; ?>				
 			</div>
+			<?php endif; ?>
 			
-			<footer class="container-fluid"> 
-				<?php include 'include/footer.php' ?>
-			</footer>
 			
-			<?php
-			/** <?php include 'include/modal.html' ?>*/
-			?>	
+			<?php include 'include/footer.php' ?>
+			
+			<?php if (!empty($page['modal'])): ?>
+				<?php include 'include/modal.php' ?>
+			<?php endif; ?>			
 	</div>

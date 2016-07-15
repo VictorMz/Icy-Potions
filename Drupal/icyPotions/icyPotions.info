@@ -24,5 +24,6 @@ regions[slide_home] = Slider Header
 regions[content] = Content
 regions[view-result] = View Result
 regions[login] = Login
+regions[modal] = Modal
 regions[page_bottom] = Page bottom
 regions[footer] = Footer
