@@ -1,35 +1,40 @@
-		.jssorb05 {
-            position: absolute;
-        }
-        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
-            position: absolute;
-            width: 16px;
-            height: 16px;
-            background: url('../img/b05.png') no-repeat;
-            overflow: hidden;
-            cursor: pointer;
-        }
-        .jssorb05 div { background-position: -7px -7px; }
-        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
-        .jssorb05 .av { background-position: -67px -7px; }
-        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+.jssorb05 { position: absolute;}
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av { position: absolute; width: 16px; height: 16px; background: url('../img/b05.png') no-repeat; overflow: hidden; cursor: pointer;}
+.jssorb05 div { background-position: -7px -7px; }
+.jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+.jssorb05 .av { background-position: -67px -7px; }
+.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+.jssora22l, .jssora22r { display: block; position: absolute; width: 40px; height: 58px; cursor: pointer; background: url('../img/a22.png') center center no-repeat; overflow: hidden; }
+.jssora22l { background-position: -10px -31px; }
+.jssora22r { background-position: -70px -31px; }
+.jssora22l:hover { background-position: -130px -31px; }
+.jssora22r:hover { background-position: -190px -31px; }
+.jssora22l.jssora22ldn { background-position: -250px -31px; }
+.jssora22r.jssora22rdn { background-position: -310px -31px; }
 
-        .jssora22l, .jssora22r {
-            display: block;
-            position: absolute;
-            width: 40px;
-            height: 58px;
-            cursor: pointer;
-            background: url('../img/a22.png') center center no-repeat;
-            overflow: hidden;
-        }
-        .jssora22l { background-position: -10px -31px; }
-        .jssora22r { background-position: -70px -31px; }
-        .jssora22l:hover { background-position: -130px -31px; }
-        .jssora22r:hover { background-position: -190px -31px; }
-        .jssora22l.jssora22ldn { background-position: -250px -31px; }
-        .jssora22r.jssora22rdn { background-position: -310px -31px; }
-
+#jssor_1{position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;}
+.loading-slide{position: absolute; top: 0px; left: 0px;}
+.loading-slide-o{filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;}
+.loading-slide-i{position:absolute;display:block;background:url('/sites/default/files/scroll/img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;}
+#slides-jssor{cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;}
+#div-img{position: absolute; top: 124px; left: 660px; width: 480px; height: 120px;}
+.div-img img{position: absolute; top: 0px; left: 0px; width: 590px; height: 90px;}
+#dcaption{position: absolute; top: 213px; left: 708px; width: 480px; height: 120px; color: #004b5e; line-height: 38px;}
+#dcaption h2{text-transform: uppercase;}
+.name-site{color: #a80838;}
+#dcaption p{margin:0px; line-height: 1.7;}
+#simages{position: absolute; top: 85px; left: 75px; width: 600px; height: 500px;}
+#secimage{position: absolute;  top: 0px; left: 0px; width: 550px; height: 400px;}
+#terimage{position: absolute;  top: 0px; left: 0px; width: 550px; height: 300px;}
+#cuimage{position: absolute; top: -83px; left: 121px; width: 300px; height: 500px;}
+#quimage{position: absolute; top: -303px; left: 121px; width: 300px; height: 500px;}
+#finalimage{position: absolute; top: 0px; left: 180px; width: 600px; height: 500px;}
+#finalimage > div{position: absolute; top: 0px; left: 0px; width: 600px; height: 500px; overflow: hidden;}
+#finalimage > div > img{position: absolute; top: -2px; left: 10px; width: 600px; height: 500px;}
+#dnavigator{bottom:16px;right:16px;}
+#dnavigator > div{width:16px;height:16px;}
+#aleft{top:0px;left:12px;width:40px;height:58px;}
+#aright{top:0px;right:12px;width:40px;height:58px;}
 
 .header{
     padding: 0; 

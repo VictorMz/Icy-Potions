@@ -34,7 +34,7 @@
 }
 
 .card{
-	border: 10px solid transparent;
+	border: 20px solid transparent;
 	-moz-border-image:url("../img/imgPal/border.png") 30 round; /* Old firefox */
 	-webkit-border-image:url("../img/imgPal/border.png") 30 round; /* Safari */
 	-o-border-image:url("../img/imgPal/border.png") 30 round; /* Opera */
@@ -60,16 +60,16 @@
     margin-bottom: 50px;
 }
 
-.card > div:nth-child(4){
-	color: #a80838; 
-}
-
 .card i.fa {
     border: 2px solid;
     padding: 8px 15px;
     border-radius: 100px;
     margin-right: 1em;
 	color: #62355e;
+}
+
+.card > div:nth-child(4), .card-red i.fa{
+	color: #a80838; 
 }
 
 .card-suc i.fa.fa-phone{
@@ -87,6 +87,23 @@
 .card i.fa.fa-gift {
     padding: 10px 12px;
 	color: #a80838;
+}
+
+.card-red{
+	border: 20px solid transparent;
+	-moz-border-image:url("../img/imgPal/border.png") 30 round; /* Old firefox */
+	-webkit-border-image:url("../img/imgPal/border.png") 30 round; /* Safari */
+	-o-border-image:url("../img/imgPal/border.png") 30 round; /* Opera */
+	border-image:url("../img/imgPal/border.png") 30 round;
+    border-bottom: 0;
+	border-right: 0;
+	border-left: 0;
+	color: #a80838;
+}
+
+.card button.btn-pal {
+    color: #62355e;
+    border: 2px solid #62355e;
 }
 
 .multifilter div.btn{
@@ -142,7 +159,7 @@ form#webform-client-form-6 input[type=submit]:hover, .card button:hover {
     border: 2px solid #62355e;
 }
 
-.multifilter div.btn:hover {
+.multifilter div.btn:hover, .multifilter div.btn.active{
     color: #fff;
     background: #62355e;
 }
